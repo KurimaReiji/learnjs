@@ -11,14 +11,21 @@
   <script src='/vendor.js'></script>
   <script src='/app.js'></script>
   <style type="text/css" media="all">
-    body { margin-top: 30px; }
-    .templates { display: none; }
+    body {
+      margin-top: 30px;
+    }
+
+    .templates {
+      display: none;
+    }
   </style>
 </head>
 
 <body>
   <div class="markup">
     <div class='view-container container'>
+    </div>
+    <div class="templates">
       <div class="landing-view">
         <div class="row">
           <div class="one-half column">
@@ -30,8 +37,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="templates">
       <div class="problem-view">
         <h3 class="title"></h3>
         <p data-name="description"></p>
@@ -43,6 +48,9 @@
             <p class="result"></p>
           </div>
         </form>
+      </div>
+      <div class="correct-flash">
+        <span>Correct!</span> <a>Next Problem</a>
       </div>
     </div>
   </div>
